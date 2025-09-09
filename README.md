@@ -22,7 +22,7 @@ Manage bookings through a console-based interface
 
 Clone this repository:
 
-git clone https://github.com/your-username/ticket-booking-system.git
+git clone https://https://github.com/Anitha2733/Ticket_Booking_System_Using_Collections.git
 cd ticket-booking-system
 
 
