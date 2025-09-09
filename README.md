@@ -1,57 +1,51 @@
 🎟️ Ticket Booking System (Java)
-📌 Overview
 
-This is a simple Ticket Booking System implemented in Java.
-The project demonstrates Object-Oriented Programming (OOP) concepts like classes, objects, encapsulation, and basic user interaction.
+A console-based ticket booking system implemented in Java using Collections Framework.
+It demonstrates core OOP concepts like classes, objects, encapsulation, and user interaction.
 
-Users can:
-
-Create a profile
+✨ Features
+Register new users
 Book tickets
 View booked tickets
-Manage bookings through a console-based interface
+Manage data using Java Collections
 
-🗂️ Project Structure
-.
-├── MainClass.java           # Entry point of the application
-├── TicketBookingSystem.java # Core logic for booking & managing tickets
-├── Ticket.java              # Represents a ticket with details
-├── User.java                # Represents a user profile
+📂 Project Files
+├── MainClass.java           # Entry point of the program
+├── TicketBookingSystem.java # Core booking system logic
+├── Ticket.java              # Ticket model
+├── User.java                # User model
 
-🚀 How to Run
+🛠️ How to Run
 
-Clone this repository:
+Clone the repository:
 
-git clone https://https://github.com/Anitha2733/Ticket_Booking_System_Using_Collections.git
-cd ticket-booking-system
-
-
-Compile the Java files:
-
-javac MainClass.java TicketBookingSystem.java Ticket.java User.java
+git clone https://github.com/Anitha2733/Ticket_Booking_System_Using_Collections.git
+cd Ticket_Booking_System_Using_Collections
 
 
-Run the program:
+Compile:
+javac *.java
+
+
+Run:
 java MainClass
 
-📖 Example Usage
-
-When you run the program, you’ll see a menu like:
-
+🖥️ Sample Menu
 Welcome to Ticket Booking System
 1. Register User
 2. Book Ticket
 3. View Tickets
 4. Exit
 
+📚 Concepts Used
 
-✅ You can register as a user
-✅ Book tickets
-✅ View your booked tickets
+Encapsulation – private fields, getters & setters
+Composition – Users own multiple tickets
+Collections Framework – to store users and tickets
+Console I/O – interactive menu with Scanner
 
-🛠️ Concepts Used
+🚀 Future Enhancements
 
-Encapsulation – using private fields with getters & setters
-Objects & Classes – User, Ticket, and system logic in TicketBookingSystem
-Composition – Users have tickets associated with them
-Console I/O – Input using Scanner, output to console
+Ticket cancellation option
+Multiple event support
+Persistent storage (files / database)
